@@ -1,101 +1,97 @@
 import Image from "next/image";
+import Link from "next/link";
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaDownload, FaPhone } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 py-36 relative overflow-hidden">
+        <div className="flex flex-col z-20"> 
+          <h1 className="text-4xl font-bold text-white">
+            HELLO I AM <br />
+            <span className="text-6xl">M KASHAN MALIK AWAN</span>
+          </h1>
+          <p className="mt-4 text-white">
+            GENERATIVE AI CHATBOT, FLUTTER MOBILE APP & MERN STACK WEB Developer
+          </p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <div className="flex mt-6 space-x-4">
+            <a
+              href="https://github.com/SitesByKashan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <FaGithub size={30} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kashan-malik-47374422a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <FaLinkedin size={30} />
+            </a>
+            <a
+              href="https://www.instagram.com/sites_by_kashan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <FaInstagram size={30} />
+            </a>
+            <a
+              href="https://www.facebook.com/kashanmalik.kashanmalik.9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              <FaFacebook size={30} />
+            </a>
+          </div>
+          <div className="flex mt-6 space-x-4">
+            <Link
+              href="/assets/KASHAN_MALIK_RESUME.pdf"
+              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
+            >
+              <span className="mr-2">Download CV</span>
+              <FaDownload size={20} />
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
+            >
+             <span className="mr-2">Contact Us</span>
+             <FaPhone size={20} />
+            </Link>
+          </div>
+        </div>
+
+        <section className="relative mt-12 lg:mt-0 lg:ml-12 flex-shrink-0 z-20">
+          <div className="flex items-center justify-center">
+            <div className="relative">
+              <Image
+                width={2000}
+                height={2000}
+                src="/assets/Profile.jpg"
+                alt="Profile"
+                className="w-96 h-96 rounded-full object-cover border-4 border-white"
+              />
+            </div>
+          </div>
+        </section>
+
+
+        <div className="absolute top-0 left-0 w-full flex justify-center z-10">
+          <Image
+            width={1000}
+            height={1000}
+            src={"/assets/Vector 3.png"}
+            alt="Vector"
+            className="md:mt-64 mt-[1100px] w-[100%] object-contain"
+          />
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    </>
   );
 }
