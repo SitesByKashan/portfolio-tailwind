@@ -88,7 +88,7 @@ export default function Home() {
             height={1000}
             src={"/assets/Vector 3.png"}
             alt="Vector"
-            className="md:mt-64 mt-[1130px] w-[100%] object-contain"
+            className="md:mt-64 mt-[1120px] w-[100%] object-contain"
           />
         </div>
       </main>
