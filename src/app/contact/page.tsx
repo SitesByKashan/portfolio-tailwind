@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 md:py-36 py-10 relative overflow-hidden">
+      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 md:py-36 py-20 relative overflow-hidden">
         <div className="col-md-6 bg-white p-6 rounded-lg shadow-md -mt-28">
           <div className="bg-white flex flex-col md:ml-auto w-full md:py-8">
             <h2 className="text-[#074643] text-lg mb-1 font-medium title-font">Feedback</h2>
@@ -59,7 +59,7 @@ export default function About() {
             height={1000}
             src={"/assets/Vector 3.png"}
             alt="Vector"
-            className="md:mt-96 mt-[1060px] w-full object-contain"
+            className="md:mt-96 mt-[960px] w-full object-contain"
           />
         </div>
       </main>
