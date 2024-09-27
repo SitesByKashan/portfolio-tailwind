@@ -5,11 +5,11 @@ import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaDownload, FaPhone } fr
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 py-36 relative overflow-hidden">
+      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 md:py-36 relative overflow-hidden">
         <div className="flex flex-col z-20"> 
-          <h1 className="text-4xl font-bold text-white">
+          <h1 className="md:text-4xl text-2xl font-bold text-white">
             HELLO I AM <br />
-            <span className="text-6xl">M KASHAN MALIK AWAN</span>
+            <span className="text-4xl md:text-6xl">M KASHAN MALIK AWAN</span>
           </h1>
           <p className="mt-4 text-white">
             GENERATIVE AI CHATBOT, FLUTTER MOBILE APP & MERN STACK WEB Developer
