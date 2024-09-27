@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 py-36 relative overflow-hidden">
+      <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 md:py-36 py-10 relative overflow-hidden">
       <div className="col-md-6 bg-white p-6 rounded-lg shadow-md -mt-28">
   <h2 className="md:text-3xl text-2xl font-bold text-[#074643]">
     Hello! I’m <span className="text-[#398E8A]">M. KASHAN MALIK AWAN</span>
