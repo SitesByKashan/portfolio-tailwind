@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <main className="flex flex-col lg:flex-row bg-[#074643] items-start justify-center min-h-screen px-10 py-36 relative overflow-hidden">
-        <div className="col-md-6 w-full bg-white p-6 pt-0 rounded-lg shadow-md -mt-28">
+        <div className="col-md-6 w-full bg-white p-6 pt-1 rounded-lg shadow-md -mt-28">
           <div className="bg-white flex flex-col md:ml-auto w-full md:py-8">
             <h2 className="text-[#074643] text-lg mb-1 font-medium title-font">Feedback</h2>
             <p className="leading-relaxed mb-5 text-[#398E8A]">We value your feedback! Please share your thoughts below.</p>
