@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col z-20"> 
           <h1 className="md:text-4xl text-2xl font-bold text-white">
             HELLO I AM <br />
-            <span className="text-4xl md:text-6xl">M KASHAN MALIK AWAN</span>
+            <span className="text-4xl md:text-6xl text-[#398E8A]">M KASHAN MALIK AWAN</span>
           </h1>
           <p className="mt-4 text-white">
             GENERATIVE AI CHATBOT, FLUTTER MOBILE APP & MERN STACK WEB Developer
