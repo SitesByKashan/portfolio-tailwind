@@ -52,14 +52,14 @@ export default function Home() {
           <div className="flex mt-6 space-x-4">
             <Link
               href="/assets/KASHAN_MALIK_RESUME.pdf"
-              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
+              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#398E8A] hover:text-white transition duration-300"
             >
               <span className="mr-2 text-sm">Resume</span>
               <FaDownload size={20} />
             </Link>
             <Link
               href="/contact"
-              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
+              className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#398E8A] hover:text-white transition duration-300"
             >
              <span className="mr-2 text-sm">Contact</span>
              <FaPhone size={20} />
