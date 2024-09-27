@@ -59,7 +59,7 @@ export default function About() {
             height={1000}
             src={"/assets/Vector 3.png"}
             alt="Vector"
-            className="md:mt-96 mt-[1060px] w-full object-contain"
+            className="md:mt-96 mt-[1030px] w-full object-contain"
           />
         </div>
       </main>
