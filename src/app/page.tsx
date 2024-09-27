@@ -54,14 +54,14 @@ export default function Home() {
               href="/assets/KASHAN_MALIK_RESUME.pdf"
               className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
             >
-              <span className="mr-2">Download CV</span>
+              <span className="mr-2 text-sm">Download CV</span>
               <FaDownload size={20} />
             </Link>
             <Link
               href="/contact"
               className="inline-flex px-6 py-2 bg-white text-[#074643] rounded-full border border-[#074643] hover:bg-[#074643] hover:text-white transition duration-300"
             >
-             <span className="mr-2">Contact Us</span>
+             <span className="mr-2 text-sm">Contact Us</span>
              <FaPhone size={20} />
             </Link>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
             height={1000}
             src={"/assets/Vector 3.png"}
             alt="Vector"
-            className="md:mt-64 mt-[750px] w-[100%] object-contain"
+            className="md:mt-64 mt-[730px] w-[100%] object-contain"
           />
         </div>
       </main>
