@@ -70,7 +70,7 @@ export default function About() {
             height={1000}
             src={"/assets/Vector 3.png"}
             alt="Vector"
-            className="md:mt-64 mt-[1180px] w-[100%] object-contain"
+            className="md:mt-64 mt-[1160px] w-[100%] object-contain"
           />
         </div>
       </main>
